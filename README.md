@@ -12,6 +12,13 @@
 
 `_frozen_infinity_` is a bleeding-edge Linux distribution based on Arch Linux aimed at ricing. 
 
+Advantages over Arch Linux:
+  1. A graphical installer
+  2. Many pre-installed tools for ricing and dayly usage
+  3. Custom packages (soon!)
+  4. Manjaro-zsh-config sutosuggestions and syntax highlighting (you need to set zsh as your shell)
+  5. And more!
+
 # Installation
 
 Grab an ISO file of `_frozen_infinity_` from the releases tab. Now, using your favourite bootable USB media creator flash the ISO file onto a flashdrive. On Windows this could be done using Rufus, on any other platform you could use Ventoy. poweroff the computer, insert the USB stick with `_frozen_infinity_` and boot to boot menu. In the boot menu select the flashdrive and boot from it. You will see an Arch Linux instalation grub menu. Select the install option and hit enter. When the installer boots, enter `1234` in the password field for the user. 
