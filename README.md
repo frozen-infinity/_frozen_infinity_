@@ -1,9 +1,9 @@
 # _frozen_infinity_
 
-
 <img width="7500" height="7500" alt="fi2" src="https://github.com/user-attachments/assets/ba04c105-42dd-4728-9eac-f187ca27889f" />
 
 [About](#about)
+
 [Installation](#installation)
 
 
