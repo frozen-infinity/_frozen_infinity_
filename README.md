@@ -16,5 +16,6 @@
 
 Grab an ISO file of `_frozen_infinity_` from the releases tab. Now, using your favourite bootable USB media creator flash the ISO file onto a flashdrive. On Windows this could be done using Rufus, on any other platform you could use Ventoy. poweroff the computer, insert the USB stick with `_frozen_infinity_` and boot to boot menu. In the boot menu select the flashdrive and boot from it. You will see an Arch Linux instalation grub menu. Select the install option and hit enter. When the installer boots, enter `1234` in the password field for the user. 
 > Keep in mind that it's best to enter GNOME, and not Hyprland or i3
+
 Now, if you're in GNOME, hit the Super(Windows) key and select the calamares installer (it can be called `Install System`, but if you type calamares in the search field, it should pop up)
 Whan Calamares opens up, follow the instructions in the app. When the instalation finishes, reboot the PC and boot to `_frozen_infinity_`. You may be dropped off to a TTY. In that case, install `SDDM` using `sudo pacman -Sy sddm`.  Now type `sudo systemctl enable sddm.service`. Also execute `sudo systemctl start sddm.service` to start SDDM. We will try to fix this issue in the future.
